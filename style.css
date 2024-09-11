@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* colors used */
+
+:root{
+    --not-quite-black: #23272a;
+    --blurple: #5865f2;
+    --dark-charcol: #2c2f33;
+    --dark-button-hover: #3b3b3b;
+    --greyple: #99aab5;
+    --spring-green: #57f287;
+    --dim-grey: #50555f;
+    --off-white: #f6f6f6;
+    --dark-blurple: #3442d9;
+    --fuchisa: #eb459e;
+    --yellow: #fee75c;
+    --mint-green: #43b581;
+    --red: #ed4245;
+    --ekko-red: #de2761;
+    --vivid-cerulean: #00b0f4;
+    --orange: #fda220;
+    --pink: #ffcdee;
+    --button-hover: #8891f2;
+    --pinc-2: #dc4195;
+    --green: #52f180;
+    --purple: #808aff;
+}
+
+/*font used  */
+:root {
+    --font-primary: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+}
+
+
+.container{
+    margin: 0;
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 0 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.primary-button{
+    margin-top: 10px;
+    width: 68px;
+    height: 38px;
+    border-radius: 10rem;
+    background-color: white;
+    color: black;
+    padding: 7px 16px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.primary-button:hover{
+    color: #3442d9;
+    cursor: pointer;
+}
+
+/* body */
+
+.nav-bar{
+    width: 100%;
+    height: 633px;
+    background-image: url(images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5865f2;
+}
+
+.nav-tog{
+    visibility: hidden;
+}
+
+.logo{
+    justify-content: space-between;
+    height: 50px;
+}
+
+.tools{
+    gap: 40px;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box:hover{
+    text-decoration: underline 1.5px;
+    cursor: pointer;
+}
+
+.imagine{
+    display: flex;
+    flex-direction: column;
+     width: 60%;
+    height: 70%;
+    color: white;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Abcgintonord 800",sans-serif;
+}
+
+.words{
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.imagine h1{
+    margin-bottom: 30px;
+    font-stretch: ultra-expanded;
+    font-size: 3rem;
+}
+
+.buttons{
+    justify-content: center;
+    gap: 20px;
+    font-family: Ggsans,sans-serif;
+    padding: 16px 32px;
+    width: 100%;
+}
+
+.button1{
+    height: 56px;
+    width: 293.16px;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    border: none;
+}
+
+.button2{
+    height: 56px;
+    width: 317.16px;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.button1:hover{
+    color: #3442d9;
+}
+
+.button2:hover{
+    background-color: var(--not-quite-black);
+    box-shadow: 0 0 3px black;
+    transition: 0.2sec;
+}
+
+.invite{
+   padding: 120px 0;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    gap: 100px;
+    width: 100%;
+}
+
+.full{
+    width: 500px;
+    justify-content: center;
+}
+
+.class3{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color:#515050;
+}
+
+.hanging{
+    background-color: #f6f6f6;
+}
+
+.sub-footer{
+    background-color: #f6f6f6;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1{
+    text-align: center;
+    margin: 10px 250px;
+    font-size: 1.5rem;
+    color: #50555f;
+}
+
+.sub-footer h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 6rem;
+    margin-top: 200px;
+}
+
+.imagess{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.imagess img{
+     width: 100%;
+     background-size: cover;
+    }
+
+.last{
+    width: 100%;
+    flex-direction: column;
+}
+
+#tsec{
+   width: 100%;
+   position: absolute;
+   justify-self: center;
+}
+
+.button3{
+    height: 56px;
+    width: 317.16px;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    background-color:#3442d9;
+    color: white;
+    border: none;
+    position: relative;
+    left: 100px;
+    margin-top: 50px;
+}
+
+.button3:hover{
+    background-color: #4d57c4e4;
+    box-shadow: 0 0 3px black;
+    transition: 0.2sec;
+}
+
+.final{
+    position: relative;
+    margin-top: 0;
+    top: -150px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #23272a;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    color: white;
+    font-family: Ggsans,sans-serif;
+    padding: 80px 0 64px;
+    align-content: start;
+    justify-content: space-between;
+}
+
+.top-headings{
+    width: 70%;
+    color:#5865f2;
+    font-family: Ggsans,sans-serif;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.seperate img{
+    width: 24px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.cant{
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.topic3{
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.topic3 a{
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.head{
+    margin-bottom: 20px;
+}
+
+.topic3 a:hover{
+    text-decoration: underline;
+}
+
+.logosss{
+    margin-top: 60px;
+    gap: 25px;
+}
+
+.theend{
+    justify-content: space-between;
+}
+
+.button4{
+    height: 38px;
+    width: 94.3px;
+    border-radius: 10rem;
+    font-family: Ggsans,sans-serif;
+    background-color: var(--blurple);
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    top: -30px;
+    margin-top: 50px;
+}
+
+.button4:hover{
+    background-color: #818bf7e4;
+    box-shadow: 0 0 3px black;
+    transition: 0.2sec;
+}

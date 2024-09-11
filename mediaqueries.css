@@ -1,0 +1,52 @@
+@media screen and (max-width:1024px){
+
+
+    body{
+        margin-left: 20px;
+        overflow-x: hidden;
+    }
+
+    .container{
+        margin: 0;
+        max-width: 100%;
+
+    }
+
+    .nav-bar{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    } 
+
+
+
+    .tools{
+        visibility: hidden;
+    }
+
+    .nav-tog{
+        visibility: visible;
+        width: 100px;
+        background-color: #4854df;
+        border: none;
+    }
+    
+    .flex{
+       flex-wrap: wrap;
+    }
+
+    .footer{
+        flex-wrap: nowrap;
+    }
+
+    .top-headings{
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer{
+        background-size: cover;
+    }
+    
+}
